@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Kits para Festas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo1.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#kits">Kits</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kits">
+            <h2>Kits Disponíveis</h2>
+            <div id="lista-kits"></div>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda de Disponibilidade</h2>
+            <p>Confira nossas datas disponíveis:</p>
+            <div id="calendario"></div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Oferecemos kits completos para tornar sua festa inesquecível!</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Venda de Kits para Festas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
