@@ -48,8 +48,8 @@ a:hover {
 }
 
 section {
-    padding-top: 100vh;
-    padding-bottom: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
@@ -62,14 +62,13 @@ section.normal {
 }
 
 section.imagem {
-    display: inline-block;
-    padding: 5px;
     background-color: rgb(83, 83, 83);
     color: white;   
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.295);
 }
 
